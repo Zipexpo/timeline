@@ -1,0 +1,8 @@
+#table text{
+    font-size: 12px;
+}
+#table .grid{
+    stroke-dasharray: 4px;
+    stroke-opacity: 0.5;
+    stroke-width: 0.5px;
+}
