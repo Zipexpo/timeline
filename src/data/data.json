@@ -16,5 +16,46 @@
       {"start":"Oct 7 2018","end":"Oct 13 2018"}
     ],
     "milestone":["Oct 13 2018"]
+  },
+  {
+    "id":2,
+    "name": "FinanViz",
+    "timeline": [
+      {"start":"Oct 13 2018","end":"Oct 23 2018"},
+      {"start":"Nov 22 2018","end":"Nov 23 2018"}
+    ],
+    "milestone":["Oct 20 2018","Nov 23 2018"]
+  },
+  {
+    "id":3,
+    "name": "IoTnegViz",
+    "timeline": [
+      {"start":"Oct 21 2018","end":"Oct 21 2018"}
+    ],
+    "milestone":["Oct 21 2018"]
+  },
+  {
+    "id":4,
+    "name": "PSviz poster for Open house",
+    "timeline": [
+      {"start":"Oct 8 2018","end":"Oct 17 2018"}
+    ],
+    "milestone":["Oct 18 2018"]
+  },
+  {
+    "id":5,
+    "name": "Vonronoi Img",
+    "timeline": [
+      {"start":"Nov 8 2018","end":"Nov 18 2018"}
+    ],
+    "milestone":[]
+  },
+  {
+    "id":6,
+    "name": "binner n-dimension",
+    "timeline": [
+      {"start":"Nov 2 2018","end":"Nov 5 2018"}
+    ],
+    "milestone":["Nov 5 2018"]
   }
 ]
