@@ -11,7 +11,7 @@ $(document).ready(function () {
     legendmaker();
 });
 var startDate = "Aug 27 2018";
-var endDate = "Dec 31 2018";
+var endDate = "Feb 31 2019";
 function main(){
     d3.queue()
     // .defer(d3.json,"src/data/twittwaterv2.json")

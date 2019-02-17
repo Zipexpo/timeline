@@ -65,7 +65,7 @@
       {"start":"Oct 30 2018","end":"Nov 18 2018"},
       {"start":"Nov 22 2018","end":"Nov 30 2018"},
       {"start":"Nov 27 2018","end":"Nov 29 2018"},
-      {"start":"Jan 28 2019","end":"Jan 31 2019"},
+      {"start":"Jan 28 2019","end":"Jan 31 2019"}
     ],
     "milestone":["Nov 29 2018","Jan 31 2019"]
   },
@@ -99,25 +99,18 @@
     "id":11,
     "name": "FNEST",
     "timeline": [
-      {"start":"Dec 24 2018","end":"Feb 3 2019"}
+      {"start":"Dec 24 2018","end":"Feb 3 2019"},
+      {"start":"Feb 19 2018","end":"Feb 31 2019"}
     ],
-    "milestone":["Dec 31 2018","Feb 3 2019"]
-  },
-  {
-    "id":11,
-    "name": "FNEST",
-    "timeline": [
-      {"start":"Dec 24 2018","end":"Feb 3 2019"}
-    ],
-    "milestone":["Dec 31 2018","Feb 3 2019"]
+    "milestone":["Dec 31 2018","Feb 3 2019","Feb 22 2019"]
   },
   {
     "id":12,
     "name": "PhysDiscover",
     "timeline": [
-      {"start":"Feb 3 2019","end":"Feb 3 2019"}
+      {"start":"Feb 3 2019","end":"Feb 17 2019"}
     ],
-    "milestone":[]
+    "milestone":["Feb 16 2019"]
   }
 
 ]
