@@ -57,5 +57,34 @@
       {"start":"Nov 2 2018","end":"Nov 5 2018"}
     ],
     "milestone":["Nov 5 2018"]
+  },
+  {
+    "id":7,
+    "name": "HPCC & HPCC VR",
+    "timeline": [
+      {"start":"Oct 30 2018","end":"Nov 18 2018"},
+      {"start":"Nov 22 2018","end":"Nov 30 2018"},
+      {"start":"Nov 27 2018","end":"Nov 29 2018"},
+      {"start":"Jan 28 2019","end":"Jan 31 2019"},
+    ],
+    "milestone":["Nov 29 2018","Jan 31 2019"]
+  },
+  {
+    "id":8,
+    "name": "QuantumViz",
+    "timeline": [
+      {"start":"Nov 13 2018","end":"Nov 14 2018"}
+    ],
+    "milestone":["Nov 14 2018"]
+  },
+  {
+    "id":9,
+    "name": "Rotorcralf",
+    "timeline": [
+      {"start":"Nov 16 2018","end":"Nov 18 2018"},
+      {"start":"Nov 21 2018","end":"Nov 29 2018"},
+      {"start":"Jan 5 2019","end":"Jan 6 2019"}
+    ],
+    "milestone":["Nov 29 2018"]
   }
 ]
