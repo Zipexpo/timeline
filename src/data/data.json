@@ -104,14 +104,6 @@
     "milestone":["Dec 31 2018","Feb 3 2019"]
   },
   {
-    "id":11,
-    "name": "FNEST",
-    "timeline": [
-      {"start":"Dec 24 2018","end":"Feb 3 2019"}
-    ],
-    "milestone":["Dec 31 2018","Feb 3 2019"]
-  },
-  {
     "id":12,
     "name": "PhysDiscover",
     "timeline": [
