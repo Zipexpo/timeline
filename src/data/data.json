@@ -68,9 +68,10 @@
       {"start":"Nov 27 2018","end":"Nov 29 2018"},
       {"start":"Jan 28 2019","end":"Mar 13 2019"},
       {"start":"Mar 15 2019","end":"Mar 20 2019"},
-      {"start":"Mar 21 2019","end":"May 11 2019"}
+      {"start":"Mar 21 2019","end":"June 27 2019"},
+      {"start":"July 2 2019","end":"August 14 2019"}
     ],
-    "milestone":["Nov 29 2018","Jan 31 2019","Mar 20 2019","Apr 19 2019","May 1 2019"]
+    "milestone":["Nov 29 2018","Jan 31 2019","Mar 20 2019","Apr 19 2019","May 1 2019","June 27 2019","August 12 2019"]
   },
   {
     "id":8,
@@ -131,6 +132,30 @@
       {"start":"Apr 19 2019","end":"Apr 24 2019"}
     ],
     "milestone":["Apr 1 2019","Apr 26 2019"]
+  },
+  {
+    "id":15,
+    "name": "VAST challenge",
+    "timeline": [
+      {"start":"July 3 2019","end":"August 1 2019"}
+    ],
+    "milestone":["July 29 2019","August 1 2019"]
+  },
+  {
+    "id":16,
+    "name": "TxRPDB",
+    "timeline": [
+      {"start":"August 13 2019","end":"August 16 2019"}
+    ],
+    "milestone":["August 15 2019"]
+  },
+  {
+    "id":17,
+    "name": "SciVis challenge (support Bao)",
+    "timeline": [
+      {"start":"August 15 2019","end":"August 16 2019"}
+    ],
+    "milestone":["August 16 2019"]
   }
 
 ]
