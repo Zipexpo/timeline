@@ -143,14 +143,22 @@
   },
   {
     "id":16,
+    "name": "HiperViz,HiperVR",
+    "timeline": [
+      {"start":"July 29 2019","end":"August 1 2019"}
+    ],
+    "milestone":["August 1 2019"]
+  },
+  {
+    "id":17,
     "name": "TxRPDB",
     "timeline": [
       {"start":"August 13 2019","end":"August 16 2019"}
     ],
-    "milestone":["August 15 2019"]
+    "milestone":["July 31 2019"]
   },
   {
-    "id":17,
+    "id":18,
     "name": "SciVis challenge (support Bao)",
     "timeline": [
       {"start":"August 15 2019","end":"August 16 2019"}
