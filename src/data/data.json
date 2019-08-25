@@ -153,9 +153,9 @@
     "id":17,
     "name": "TxRPDB",
     "timeline": [
-      {"start":"August 13 2019","end":"August 16 2019"}
+      {"start":"August 13 2019","end":"August 24 2019"}
     ],
-    "milestone":["July 31 2019"]
+        "milestone":["August 20 2019","August 23 2019"]
   },
   {
     "id":18,
@@ -167,19 +167,19 @@
   },
   {
     "id":19,
-    "name": "txrbpd (web design)",
-    "timeline": [
-      {"start":"August 13 2019","end":"August 24 2019"}
-    ],
-    "milestone":["August 20 2019","August 23 2019"]
-  },
-  {
-    "id":20,
     "name": "ContiMap (support aVung)",
     "timeline": [
       {"start":"August 19 2019","end":"August 20 2019"}
     ],
     "milestone":["August 20 2019"]
+  },
+  {
+    "id":20,
+    "name": "WHPC-event (poster design)",
+    "timeline": [
+      {"start":"August 23 2019","end":"August 24 2019"}
+    ],
+    "milestone":["August 24 2019"]
   },
   {
     "id":21,
