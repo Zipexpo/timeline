@@ -10,7 +10,7 @@ $(document).ready(function () {
     main();
     legendmaker();
 });
-var startDate = "Aug 27 2018";
+var startDate = "Aug 1 2019";
 var endDate = new Date();
 function main(){
     d3.queue()
@@ -33,10 +33,17 @@ function ready (error, data) {
     var timeline = d3.select("#table").append('svg')
         .attr("width", svgWidth)
         .attr("height", svgHeight);
+    var timeline_axis = d3.select("#table_axis").append('svg')
+        .attr("width", svgWidth)
+        .attr("height", svgHeight);
+
     shadowdrop(timeline);
     var svg = timeline.append('g')
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
         .attr("id","areaplot");
+    timeline_axis_g = timeline_axis.append('g')
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")").append("g").attr("class","axisg");
+
     var svgaxis = svg.append("g").attr("class","axisg");
     var stackg = svg.selectAll(".stackg")
         .data(data,d=>d.timeline)
@@ -87,6 +94,7 @@ function ready (error, data) {
         .selectAll("text")
         //.attr("transform", "rotate(-40)")
         .style("text-anchor", "start")
+        .style("transform", "rotate(-15deg)")
         .attr("dx", ".8em")
         .attr("dy", "-.15em");
     yaxis = svgaxis.append("g")
@@ -107,7 +115,21 @@ function ready (error, data) {
             .tickSize(svgWidth-margin.left-margin.right)
             .tickFormat("")
         );
-    svgaxis.append("g")
+    // svgaxis.append("g")
+    //     .attr("class", "axis")
+    //     .attr("transform", "translate(0," + 0 + ")")
+    //     .call(d3.axisLeft(y))
+    //     .selectAll("text")
+    //     .style("text-anchor", "end")
+    //     .attr("dx", "-.8em")
+    //     .attr("dy", ".1em");
+    timeline_axis_g.append("rect")
+        .attr('width',margin.left)
+        .attr('height',svgHeight)
+        .attr('x',-margin.left)
+        .attr('y',-margin.top)
+        .attr('fill','white');
+    timeline_axis_g.append("g")
         .attr("class", "axis")
         .attr("transform", "translate(0," + 0 + ")")
         .call(d3.axisLeft(y))

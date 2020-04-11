@@ -69,9 +69,9 @@
       {"start":"Jan 28 2019","end":"Mar 13 2019"},
       {"start":"Mar 15 2019","end":"Mar 20 2019"},
       {"start":"Mar 21 2019","end":"June 27 2019"},
-      {"start":"July 2 2019","end":"August 14 2019"}
+      {"start":"July 2 2019","end":"September 19 2019"}
     ],
-    "milestone":["Nov 29 2018","Jan 31 2019","Mar 20 2019","Apr 19 2019","May 1 2019","June 27 2019","August 12 2019"]
+    "milestone":["Nov 29 2018","Jan 31 2019","Mar 20 2019","Apr 19 2019","May 1 2019","June 27 2019","August 12 2019","September 19 2019"]
   },
   {
     "id":8,
@@ -183,11 +183,63 @@
   },
   {
     "id":21,
-    "name": "HPCC-Joblist",
+    "name": "HPCC-TimeRadar (old name: Joblist)",
     "timeline": [
-      {"start":"August 24 2019","end":"August 26 2019"}
+      {"start":"August 24 2019","end":"Dec 24 2019"},
+      {"start":"Jan 6 2020","end":"Jan 6 2020"},
+      {"start":"Jan 13 2020","end":"Feb 3 2020"},
+      {"start":"Feb 6 2020","end":"Apr 10 2020"}
     ],
-    "milestone":["August 26 2019"]
+    "milestone":["August 26 2019","Jan 15 2020","April 2 2020"]
+  },
+  {
+    "id":22,
+    "name": "Bio project (BioRadar and BioCoordinate",
+    "timeline": [
+      {"start":"Mar 2 2020","end":"April 10 2020"}
+    ],
+    "milestone":[]
+  },
+  {
+    "id":22,
+    "name": "IaViz",
+    "timeline": [
+      {"start":"Dec 3 2019","end":"Jan 24 2020"}
+    ],
+    "milestone":["Jan 24 2020"]
+  },
+  {
+    "id":23,
+    "name": "Color blind",
+    "timeline": [
+      {"start":"Jan 3 2020","end":"Jan 5 2020"},
+      {"start":"Jan 14 2020","end":"Jan 27 2020"}
+    ],
+    "milestone":["Jan 5 2020","Jan 27 2020"]
+  },
+  {
+    "id":24,
+    "name": "Bio VR",
+    "timeline": [
+      {"start":"Feb 20 2020","end":"Feb 29 2020"}
+    ],
+    "milestone":["Feb 29 2020"]
+  },
+  {
+    "id":25,
+    "name": "COVID-19",
+    "timeline": [
+      {"start":"Mar 31 2020","end":"Apr 2 2020"}
+    ],
+    "milestone":["Apr 2 2020"]
+  },
+  {
+    "id":26,
+    "name": "lab website",
+    "timeline": [
+      {"start":"Dec 23 2020","end":"Jan 1 2020"}
+    ],
+    "milestone":["Jan 1 2020"]
   }
 
 ]
